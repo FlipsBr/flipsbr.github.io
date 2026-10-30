@@ -1,6 +1,6 @@
-# Portfólio
+# About.me
 
-Site de portfólio estático desenvolvido com Vue 3 e Vite. A página tem navegação por âncoras e seções para apresentação, projetos, experiência e contato.
+Site simples de CV.
 
 ## Desenvolvimento
 
