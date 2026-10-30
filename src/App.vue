@@ -71,7 +71,7 @@
 
 <template>
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Nome">Felipe Pires<span>.</span></a>
+    <a class="brand" href="#inicio" aria-label="Nome">README.md<span>.</span></a>
     <nav aria-label="Navegação principal">
       <a href="#competencias">Competências</a>
       <a href="#experiencia">Experiência</a>
@@ -97,7 +97,7 @@
         <div class="hero-art" aria-label="Resumo profissional em uma janela de terminal" role="img">
           <div class="terminal-bar">
             <span class="terminal-lights"><i></i><i></i><i></i></span>
-            <span>~/curriculo — bash</span>
+            <span>~/about-me.sh — bash</span>
             <span>•••</span>
           </div>
           <div class="terminal-content" aria-hidden="true">
@@ -114,7 +114,7 @@
         </div>
         <a class="scroll-link" href="#competencias" aria-label="Rolar até as competências">↓</a>
       </div>
-      <span class="hero-side-note">Currículo · {{ new Date().getFullYear() }}</span>
+      <!-- <span class="hero-side-note">Currículo · {{ new Date().getFullYear() }}</span> -->
     </section>
 
     <section id="competencias" class="resume-section page-width">
@@ -174,12 +174,12 @@
       <div class="contact-bottom">
         <p>Disponível para oportunidades e projetos.</p>
         <div class="contact-actions">
-          <a class="contact-link" href="mailto:oi@seunome.com">
-            <span>oi@seunome.com</span><span aria-hidden="true">↗</span>
-          </a>
+          <!-- <a class="contact-link" href="mailto:oi@seunome.com"> -->
+          <!-- <span>oi@seunome.com</span><span aria-hidden="true">↗</span> -->
+          <!-- </a> -->
           <a
             class="linkedin-link"
-            href="https://www.linkedin.com/in/seu-usuario/"
+            href="https://www.linkedin.com/in/felipedsp/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -191,7 +191,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>Felipe Pires · Currículo {{ new Date().getFullYear() }}</p>
+    <p>Felipe Pires · Desenvolvimento de Software · {{ new Date().getFullYear() }}</p>
     <a href="#inicio">Voltar ao topo ↑</a>
   </footer>
 </template>
