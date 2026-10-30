@@ -15,5 +15,3 @@ npm run dev
 npm run build
 npm run preview
 ```
-
-Edite `src/App.vue` para atualizar textos, projetos, experiência e links. Os estilos globais e responsivos ficam em `src/style.css`.
